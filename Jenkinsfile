@@ -33,6 +33,7 @@ pipeline {
                 '''
             }
         }
+    }
     post {
         success {
             echo 'Pipeline executed successfully. NGINX load balancer is running.'
